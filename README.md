@@ -10,4 +10,6 @@
 
 # Error
 #### GET http://localhost:4100/src_bootloader2_js.js net::ERR_ABORTED 404 (Not Found)
-Explanation --> bootloader2/js file for the angular-mfe-2 and angular-mfe-2 is running on PORT 4200 but code is finding into PORT 4100, they are correclty running on standalone, I think this is issue of publicpath ( webpack configuration ) i have set **publicPath:"auto"** for both angular-mfe. 
+Explanation --> bootloader2/js file for the angular-mfe-2 and angular-mfe-2 is running on PORT 4200 but code is finding into PORT 4100.
+
+they are correclty running on standalone, I think this is issue of publicpath ( webpack configuration ) i have set **publicPath:"auto"** for both angular-mfe but still not working. 
