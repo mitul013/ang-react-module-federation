@@ -1,5 +1,6 @@
 /node_modules
 **/node_modules
-**/dist
+angular-mfe-1/dist
+angular-mfe-2/dist
 .DS_store
 modules/**/node_modules
